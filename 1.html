@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Website</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <div class="main-container">
+
+
+    <div class="navbar">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="image1" srcset="">
+        </a>
+        <ul id="SideMenu">
+            <li><a href="" class="active">Menu</a></li>
+            <li><a href="">Location</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+        <div class="nav-btn">
+            <button class="login-btn">Login</button>
+            <button id="toggleBtn"  class="toggle-btn">
+                <img src="images/bar-icon.svg" srcset="">
+            </button>
+        </div>
+    </div>
+<div class="bottom-content">
+    <div class="bottom-left">
+        <h1> Your feet deserve the best.</h1>
+        <p>Elevate your style with our exclusive shoe collection, where comfort meets cutting-edge design. Step confidently with footwear that turns heads and lasts through every adventure.</p>
+        <div class="btn-sec">
+            <button>Shop Now</button>
+            <button>Category</button>
+        </div>
+    </div>
+    <div class="bottom-right">
+        <img src="images/bg-effact.png" alt="" srcset="" class="bg-effact"/>
+        <img src="images/shoes-img.png" alt="" srcset="" class="shoes-img">
+    </div>
+</div>
+</div>
+
+<script>
+    var toggleBtn= document.getElementById("toggleBtn");
+    var SideMenu= document.getElementById("SideMenu");
+    toggleBtn.addEventListener('click',()=>{
+        SideMenu.classList.toggle('active');
+
+    })
+
+</script>
+
+</body>
+</html>
